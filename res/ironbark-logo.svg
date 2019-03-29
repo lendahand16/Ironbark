@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5cm"
+   height="5cm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="iblogo.svg">
+  <title
+     id="title5607">Ironbark Logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5599">
+      <stop
+         style="stop-color:#bac049;stop-opacity:1"
+         offset="0"
+         id="stop5595" />
+      <stop
+         style="stop-color:#f96231;stop-opacity:1"
+         offset="1"
+         id="stop5597" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5599"
+       id="linearGradient5601"
+       x1="287.11505"
+       y1="307.53058"
+       x2="571.17487"
+       y2="799.53662"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.07222919,0,0,0.07222919,-4.4400839,231.74625)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-8.0144783"
+     inkscape:cy="82.63267"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="cm"
+     inkscape:pagecheckerboard="true"
+     showborder="true"
+     borderlayer="false"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ironbark Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Circle">
+    <circle
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#bac049;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5609"
+       cx="25"
+       cy="25"
+       r="25" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Logo"
+     style="display:inline"
+     transform="translate(0,-247)">
+    <path
+       style="display:inline;fill:url(#linearGradient5601);fill-opacity:1;stroke-width:0.18831179"
+       d="m 23.545903,249.89806 -4.739334,2.74048 c -2.60659,1.50722 -5.058137,2.94611 -5.447942,3.19769 l -0.70875,0.4575 0.04966,6.15119 0.04966,6.15106 1.035754,0.62297 c 0.569642,0.34257 1.088743,0.64431 1.153693,0.67065 0.06495,0.0264 0.0043,1.27666 -0.134867,2.77844 -0.13916,1.50178 -0.255823,2.8292 -0.25929,2.94968 -0.0035,0.12049 1.099719,0.91756 2.45156,1.77145 l 2.457908,1.55265 -0.107215,0.95887 c -0.119825,1.07229 -1.230717,13.75706 -1.230717,14.05295 0,0.12234 1.574496,0.1711 4.472425,0.13838 l 4.472425,-0.0505 0.441275,-4.80198 c 0.24269,-2.64107 0.465111,-4.82675 0.494318,-4.85699 0.02922,-0.0303 1.356029,-0.39763 2.948418,-0.81652 1.592385,-0.41891 2.928127,-0.79432 2.968309,-0.83416 0.150749,-0.14952 -0.413225,-1.77791 -0.615358,-1.77682 -0.189034,9.1e-4 -4.054068,0.98427 -4.87011,1.2389 -0.296028,0.0924 -0.316401,-0.0133 -0.209069,-1.08667 0.06539,-0.65403 0.145065,-1.22012 0.176904,-1.25782 0.03184,-0.0377 0.3477,0.1106 0.701979,0.32955 0.354277,0.21896 0.750067,0.3981 0.879446,0.3981 0.22604,0 8.96651,-4.96277 10.030258,-5.69509 l 0.517882,-0.35649 v -5.90192 -5.90191 l -3.060006,-1.76933 -3.060147,-1.76948 -0.0941,-1.56675 -0.0941,-1.56676 -5.335507,-3.07566 z m -6.477773,21.3172 c 0.108804,-0.009 0.664985,0.2617 1.29152,0.63229 l 1.215199,0.71877 0.09466,1.41608 c 0.05199,0.77888 0.05323,1.69159 0.0025,2.0282 -0.0507,0.33662 -0.146107,0.6055 -0.212033,0.59745 -0.06592,-0.007 -0.628192,-0.35341 -1.249621,-0.76743 -0.621429,-0.41402 -1.23112,-0.81077 -1.354862,-0.88158 -0.168045,-0.0961 -0.183317,-0.57381 -0.06009,-1.88741 0.09074,-0.96726 0.206392,-1.80007 0.257035,-1.85072 0.0032,-0.004 0.0084,-0.005 0.01566,-0.005 z"
+       id="path5563"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

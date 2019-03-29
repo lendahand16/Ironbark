@@ -1,0 +1,19 @@
+{
+  "name": "ironbark",
+  "version": "0.0.1",
+  "description": "A http/s server",
+  "main": "ironbark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lendahand16/ironbark.git"
+  },
+  "author": "Oliver Lenehan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lendahand16/ironbark/issues"
+  },
+  "homepage": "https://github.com/lendahand16/ironbark#readme"
+}
