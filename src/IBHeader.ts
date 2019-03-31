@@ -4,7 +4,6 @@ export declare let IBFoundation: typeof import("./IBFoundation").IBFoundation;
 export declare let IBInit: typeof import("./IBInit").IBInit;
 export declare let IBConfigLoader: typeof import("./IBConfigLoader").IBConfigLoader;
 
-// IBBuild Headers
 export declare type T_ResourceName = 
     "HTML_index"|
     "IronbarkWebLib"|
@@ -14,7 +13,10 @@ export declare type T_ResourceName =
 export declare let _IBResourceData: {
     [key in T_ResourceName]: any;
 };
-
+//@IBBuild::Resource<>
+//@IBBuild::Resource<>
+//@IBBuild::Resource<>
+//@IBBuild::Source
 //@IBBuild::Include
 // NodeJS Module Imports
 export let Fs: typeof import("fs") = require("fs");

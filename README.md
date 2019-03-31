@@ -9,6 +9,13 @@ It aims to provide dynamic content through JavaScript and JSON APIs as a replace
 [Changelog](CHANGELOG.md)
 
 ## Todo List
+- [ ] Merge `ironbark-build` and `ironbark-res-linker`
+- [ ] Create an installer
+- [ ] Create "SymLinks" for website paths.
+  - [ ] Allow custom sub-domains.
+  - [ ] Folder structure from /web/ and .ironbark config working.
+  - [ ] Web Library Path `localhost/ironbark-lib/ironbark-weblib.js`
+- [ ] Create a `.ironbark` config definition.
 - [x] Create a proper build script.
   - [x] Create an "executable"
   - [x] Executable extract paths (IBInitialise)
@@ -16,20 +23,14 @@ It aims to provide dynamic content through JavaScript and JSON APIs as a replace
   - [x] Check for file existance before installing it into folder. (IBInitialise)
   - [x] Build configuration
   - [x] Add an entry to package.json file for source/resource files]
-- [ ] Resource builder
-  - [ ] Link Files
-  - [ ] Link Folder Trees
-  - [ ] Write Files
-  - [ ] Write Resource Tree
-- [ ] Create an installer
-- [ ] Create "SymLinks" for website paths.
-  - [ ] Allow custom sub-domains.
-  - [ ] Folder structure from /web/ and .ironbark config working.
-  - [ ] Web Library Path `localhost/ironbark-lib/ironbark-weblib.js`
-- [ ] Create a `.ironbark` config definition.
-- [ ] Create an "Ironbark Executable" creator API?
-  - [ ] Files to include
-  - [ ] Pretty much foundational version of `ironbark-build.js`
+- [x] Resource builder
+  - [x] Link Files
+  - [x] Link Folder Trees
+  - [x] Write Files
+  - [x] Write Resource Tree
+- [x] Create an "Ironbark Executable" creator API?
+  - [x] Files to include
+  - [x] Pretty much foundational version of `ironbark-build.js`
 
 ### Built Program Extract Folder Structure
 ```
@@ -54,4 +55,27 @@ ironbark/
     },
     "defaultPage": "index.html"
 }
+```
+
+### Ironbark TS Compiler CLI
+```
+----------------------------------------------------------------
+main.js
+//@IBBuild::Include<header.ts>
+import { Module } from "./header.ts";
+//@IBBuild::Source
+Module.thing();
+
+
+----------------------------------------------------------------
+header.ts
+//@IBBuild::Include<header.ts>
+//@IBBuild::Resource<res.txt>
+//@IBBuild::Source
+export let Fs: typeof import("fs") = require("fs");
+
+
+----------------------------------------------------------------
+CLI
+node ibcompiler <mainEntryPoint.ts> [-r <resourceSearchPath>] [-d/--debug]
 ```
